@@ -3,7 +3,7 @@
 
   <p>Name: <input type="text" name="song_name" id="Name" value="<%= @song.name %>"></p>
 
-  <p>Artist Name: <input type="text" name="artist_name" id="Artist Name" placeholder="<%= @song.artist.name %>"></p>
+  <p>Artist Name: <input type="text" name="artist_name" id="Artist Name" value="<%= @song.artist.name %>"></p>
 
   <p>Genres:
     <% Genre.all.each do |genre| %>
